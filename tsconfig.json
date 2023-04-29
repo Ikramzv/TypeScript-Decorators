@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "listEmittedFiles": true,
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "module": "ES6",
+        "moduleResolution": "node",
+        "importsNotUsedAsValues": "remove",   
+        "noUnusedParameters": false,
+        "noPropertyAccessFromIndexSignature": false,
+        "noUncheckedIndexedAccess": false
+    },
+    "include": ["index.ts"],
+    "exclude": ["node_modules"]
+}
