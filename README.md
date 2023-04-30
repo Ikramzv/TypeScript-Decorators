@@ -1,4 +1,4 @@
-## What is a "Decorator" ?
+# What is a "Decorator" ?
 
 A Decorator is simply JavaScript function that are run in the compile time , and helps us to extend the behavior of the decorated declaration.
 For Example :
