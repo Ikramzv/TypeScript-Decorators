@@ -34,4 +34,4 @@ type ClassDecorator = <T extends Function>(targetConstructor: T) => T | void
 
 # Why doesn't PropertyDecorator function have descriptor parameter ?
 
-Because Decorators are all run in the compile time , and in the compile time , all properties are undefined unlike in the runtime .
+A Property Descriptor is not provided as an argument to a property decorator due to how property decorators are initialized in TypeScript. This is because there is currently no mechanism to describe an instance property when defining members of a prototype, and no way to observe or modify the initializer for a property. The return value is ignored too. As such, a property decorator can only be used to observe that a property of a specific name has been declared for a class.
